@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Learning Library - Essays, Letters & More</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>📚 English Learning Library</h1>
+            <p class="tagline">Free essays, letters, dialogues, and paragraphs for students</p>
+        </div>
+    </header>
+
+    <section class="search-section">
+        <div class="container">
+            <input type="text" id="searchBar" placeholder="Search for essays, letters, dialogues..." autocomplete="off">
+            <div id="searchResults" class="search-results"></div>
+        </div>
+    </section>
+
+    <section class="categories-section">
+        <div class="container">
+            <h2>Browse by Category</h2>
+            <div class="categories-grid">
+                <div class="category-card" data-category="essays">
+                    <div class="category-icon">✍️</div>
+                    <h3>Essays</h3>
+                    <p class="count">5 examples</p>
+                </div>
+                <div class="category-card" data-category="letters">
+                    <div class="category-icon">✉️</div>
+                    <h3>Letters</h3>
+                    <p class="count">4 examples</p>
+                </div>
+                <div class="category-card" data-category="dialogues">
+                    <div class="category-icon">💬</div>
+                    <h3>Dialogues</h3>
+                    <p class="count">3 examples</p>
+                </div>
+                <div class="category-card" data-category="paragraphs">
+                    <div class="category-icon">📝</div>
+                    <h3>Paragraphs</h3>
+                    <p class="count">4 examples</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="content-section">
+        <div class="container">
+            <div class="filter-header">
+                <h2 id="categoryTitle">All Content</h2>
+                <button id="showAllBtn" class="show-all-btn" style="display: none;">Show All</button>
+            </div>
+            <div id="contentGrid" class="content-grid"></div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 English Learning Library. Made to help students learn English.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
